@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED2AD5017C32C7E00E6F0AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED2AD4F17C32C7E00E6F0AA /* UIKit.framework */; };
+		CED2AD5217C32C7E00E6F0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED2AD5117C32C7E00E6F0AA /* Foundation.framework */; };
+		CED2AD5417C32C7E00E6F0AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED2AD5317C32C7E00E6F0AA /* CoreGraphics.framework */; };
+		CED2AD5A17C32C7F00E6F0AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CED2AD5817C32C7F00E6F0AA /* InfoPlist.strings */; };
+		CED2AD5C17C32C7F00E6F0AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2AD5B17C32C7F00E6F0AA /* main.m */; };
+		CED2AD6017C32C7F00E6F0AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2AD5F17C32C7F00E6F0AA /* AppDelegate.m */; };
+		CED2AD6217C32C7F00E6F0AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CED2AD6117C32C7F00E6F0AA /* Default.png */; };
+		CED2AD6417C32C7F00E6F0AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED2AD6317C32C7F00E6F0AA /* Default@2x.png */; };
+		CED2AD6617C32C7F00E6F0AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CED2AD6517C32C7F00E6F0AA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CED2AD4C17C32C7E00E6F0AA /* TrainTicketQuery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainTicketQuery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2AD4F17C32C7E00E6F0AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CED2AD5117C32C7E00E6F0AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CED2AD5317C32C7E00E6F0AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CED2AD5717C32C7E00E6F0AA /* TrainTicketQuery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrainTicketQuery-Info.plist"; sourceTree = "<group>"; };
+		CED2AD5917C32C7F00E6F0AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CED2AD5B17C32C7F00E6F0AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED2AD5D17C32C7F00E6F0AA /* TrainTicketQuery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrainTicketQuery-Prefix.pch"; sourceTree = "<group>"; };
+		CED2AD5E17C32C7F00E6F0AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CED2AD5F17C32C7F00E6F0AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CED2AD6117C32C7F00E6F0AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CED2AD6317C32C7F00E6F0AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CED2AD6517C32C7F00E6F0AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED2AD4917C32C7E00E6F0AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2AD5017C32C7E00E6F0AA /* UIKit.framework in Frameworks */,
+				CED2AD5217C32C7E00E6F0AA /* Foundation.framework in Frameworks */,
+				CED2AD5417C32C7E00E6F0AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED2AD4317C32C7E00E6F0AA = {
+			isa = PBXGroup;
+			children = (
+				CED2AD5517C32C7E00E6F0AA /* TrainTicketQuery */,
+				CED2AD4E17C32C7E00E6F0AA /* Frameworks */,
+				CED2AD4D17C32C7E00E6F0AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED2AD4D17C32C7E00E6F0AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED2AD4C17C32C7E00E6F0AA /* TrainTicketQuery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED2AD4E17C32C7E00E6F0AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED2AD4F17C32C7E00E6F0AA /* UIKit.framework */,
+				CED2AD5117C32C7E00E6F0AA /* Foundation.framework */,
+				CED2AD5317C32C7E00E6F0AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED2AD5517C32C7E00E6F0AA /* TrainTicketQuery */ = {
+			isa = PBXGroup;
+			children = (
+				CED2AD5E17C32C7F00E6F0AA /* AppDelegate.h */,
+				CED2AD5F17C32C7F00E6F0AA /* AppDelegate.m */,
+				CED2AD5617C32C7E00E6F0AA /* Supporting Files */,
+			);
+			path = TrainTicketQuery;
+			sourceTree = "<group>";
+		};
+		CED2AD5617C32C7E00E6F0AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CED2AD5717C32C7E00E6F0AA /* TrainTicketQuery-Info.plist */,
+				CED2AD5817C32C7F00E6F0AA /* InfoPlist.strings */,
+				CED2AD5B17C32C7F00E6F0AA /* main.m */,
+				CED2AD5D17C32C7F00E6F0AA /* TrainTicketQuery-Prefix.pch */,
+				CED2AD6117C32C7F00E6F0AA /* Default.png */,
+				CED2AD6317C32C7F00E6F0AA /* Default@2x.png */,
+				CED2AD6517C32C7F00E6F0AA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED2AD4B17C32C7E00E6F0AA /* TrainTicketQuery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED2AD6917C32C7F00E6F0AA /* Build configuration list for PBXNativeTarget "TrainTicketQuery" */;
+			buildPhases = (
+				CED2AD4817C32C7E00E6F0AA /* Sources */,
+				CED2AD4917C32C7E00E6F0AA /* Frameworks */,
+				CED2AD4A17C32C7E00E6F0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainTicketQuery;
+			productName = TrainTicketQuery;
+			productReference = CED2AD4C17C32C7E00E6F0AA /* TrainTicketQuery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED2AD4417C32C7E00E6F0AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "M J";
+			};
+			buildConfigurationList = CED2AD4717C32C7E00E6F0AA /* Build configuration list for PBXProject "TrainTicketQuery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CED2AD4317C32C7E00E6F0AA;
+			productRefGroup = CED2AD4D17C32C7E00E6F0AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED2AD4B17C32C7E00E6F0AA /* TrainTicketQuery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED2AD4A17C32C7E00E6F0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2AD5A17C32C7F00E6F0AA /* InfoPlist.strings in Resources */,
+				CED2AD6217C32C7F00E6F0AA /* Default.png in Resources */,
+				CED2AD6417C32C7F00E6F0AA /* Default@2x.png in Resources */,
+				CED2AD6617C32C7F00E6F0AA /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED2AD4817C32C7E00E6F0AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED2AD5C17C32C7F00E6F0AA /* main.m in Sources */,
+				CED2AD6017C32C7F00E6F0AA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CED2AD5817C32C7F00E6F0AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED2AD5917C32C7F00E6F0AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED2AD6717C32C7F00E6F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED2AD6817C32C7F00E6F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED2AD6A17C32C7F00E6F0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainTicketQuery/TrainTicketQuery-Prefix.pch";
+				INFOPLIST_FILE = "TrainTicketQuery/TrainTicketQuery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CED2AD6B17C32C7F00E6F0AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrainTicketQuery/TrainTicketQuery-Prefix.pch";
+				INFOPLIST_FILE = "TrainTicketQuery/TrainTicketQuery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED2AD4717C32C7E00E6F0AA /* Build configuration list for PBXProject "TrainTicketQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2AD6717C32C7F00E6F0AA /* Debug */,
+				CED2AD6817C32C7F00E6F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED2AD6917C32C7F00E6F0AA /* Build configuration list for PBXNativeTarget "TrainTicketQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED2AD6A17C32C7F00E6F0AA /* Debug */,
+				CED2AD6B17C32C7F00E6F0AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED2AD4417C32C7E00E6F0AA /* Project object */;
+}
