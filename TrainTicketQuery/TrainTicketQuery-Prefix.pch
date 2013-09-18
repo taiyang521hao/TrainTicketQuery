@@ -11,4 +11,13 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    #define         alipayFinished                              @"AlipayFinished"
+
+    #define         appScheme                                   @"OPENQUERYAPP"
+
+    #define         TrainOrderServiceURL                        @"http://www.114piaowu.com:8043/axis2/services/trainOrderService"
+    #define         UserServiceURL                              @"http://www.114piaowu.com:8043/axis2/services/userService"
+    #define         NotificationAppConfigRecived                @"ReceiveAppConfig"
+    #define         NotificationAppConfigRecivedFailed          @"ReceiveAppConfigFailed"
 #endif
